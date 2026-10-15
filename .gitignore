@@ -218,3 +218,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Private Shopify data
+data/
+*.csv
+*.xlsx
+*.xls
+
+# Power BI files containing real business data
+*.pbix
+
+# Database backups
+*.sql.gz
+*.dump
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+secrets/
+
+# Python temporary files
+__pycache__/
+.ipynb_checkpoints/
+
